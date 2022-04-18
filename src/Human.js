@@ -16,4 +16,8 @@ class Human {
   defense() {
     console.log(`${this.name} blocked the atack`);
   }
+
+  treat(value) {
+    this.health += value;
+  }
 }
