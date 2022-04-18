@@ -12,4 +12,8 @@ class Human {
   atack() {
     console.log(`${this.name} used ${this.weapon}`);
   }
+
+  defense() {
+    console.log(`${this.name} blocked the atack`);
+  }
 }
