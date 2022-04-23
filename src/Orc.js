@@ -3,14 +3,16 @@ class Orc {
     this.name = name;
     this.weapon = 'axe';
     this.health = 125;
+    this.defeat = 10;
   }
 
   say() {
     console.log(`I am orc ${this.name}`);
   }
 
-  atack() {
-    console.log(`${this.name} used ${this.weapon}`);
+  atack(person) {
+    console.log(`${this.name} atacked ${person}`);    
+    person.health - this.defeat;
   }
 
   defense() {
@@ -18,6 +20,6 @@ class Orc {
   }
 
   angry() {
-
+    this.defeat *= 2;
   }
 }
