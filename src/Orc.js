@@ -20,6 +20,6 @@ class Orc {
   }
 
   angry() {
-    this.defeat *= 2;
+    this.defeat *= 3;
   }
 }
