@@ -1,8 +1,8 @@
 class Human {
-  constructor(name, weapon, health) {
+  constructor(name, weapon) {
     this.name = name;
     this.weapon = weapon;
-    this.health = health;
+    this.health = 100;
   }
 
   say() {

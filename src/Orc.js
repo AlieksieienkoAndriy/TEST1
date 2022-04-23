@@ -1,8 +1,8 @@
 class Orc {
-  constructor(name, weapon, health) {
+  constructor(name, weapon) {
     this.name = name;
     this.weapon = weapon;
-    this.health = health;
+    this.health = 125;
   }
 
   say() {
@@ -15,5 +15,9 @@ class Orc {
 
   defense() {
     console.log(`${this.name} blocked the atack`);
+  }
+
+  angry() {
+
   }
 }
