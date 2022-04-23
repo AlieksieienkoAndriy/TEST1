@@ -1,7 +1,7 @@
 class Human {
-  constructor(name, weapon) {
+  constructor(name) {
     this.name = name;
-    this.weapon = weapon;
+    this.weapon = 'sword';
     this.health = 100;
   }
 
@@ -15,5 +15,9 @@ class Human {
 
   defense() {
     console.log(`${this.name} blocked the atack`);
+  }
+
+  treat(value) {
+    this.health += value;
   }
 }
