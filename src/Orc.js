@@ -1,7 +1,7 @@
 class Orc {
-  constructor(name, weapon) {
+  constructor(name) {
     this.name = name;
-    this.weapon = weapon;
+    this.weapon = 'axe';
     this.health = 125;
   }
 
