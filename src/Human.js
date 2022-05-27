@@ -1,3 +1,4 @@
+const dev = 'dev1';
 class Human {
   constructor(name) {
     this.name = name;
