@@ -1,4 +1,5 @@
 const dev = 'dev1';
+console.log('test');
 class Human {
   constructor(name) {
     this.name = name;
